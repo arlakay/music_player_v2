@@ -1,16 +1,25 @@
-# music_player_v2
+A Music Player App made using Flutter.
 
-A new Flutter project.
+## Supported Platform/Devices
+- Android
+- iOS
 
-## Getting Started
+## Supported Features
+- Search Artist
+- List Songs 
+- Play/Pause Track
 
-This project is a starting point for a Flutter application.
+## Requirement to build the app
+- Flutter SDK 3.0.1
+- minimum AndroidSdkVersion 21
+- JDK 8/11
+- XCode
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Instructions to build
+Using Visual Studio Code IDE
+- Clone project from here [MusicPlayerV2](https://github.com/arlakay/music_player_v2.git)
+- Open Project
+- Checkout to branch **main**
+- Open Terminal in Visual Studio Code (Terminal > New Terminal)
+- run **flutter packages get** to resolve/getting all dependencies
+- run **flutter run** to running the apps or **flutter build apk --release** to build apk
